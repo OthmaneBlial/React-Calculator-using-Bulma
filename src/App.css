@@ -1,0 +1,59 @@
+  @import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+
+  html, body {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    height: 100%;
+    background: #ECF0F3;
+  }
+
+  .container {
+    width: 400px;
+    height: 430px;
+    margin: auto;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-top: 20px;
+  }
+
+  .color {
+    background: #085078;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 0;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 5px;
+  }
+
+  span {
+    text-align: left;
+    /*margin-right: -300px;*/
+  }
+
+  .container a {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+  }
+
+  .columns {
+    margin: 0;
+  }
+
+  .column {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .button {
+    padding: 8%;
+    font-size: 23px;
+  }
